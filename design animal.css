@@ -1,0 +1,89 @@
+
+.logo{
+    float:left;
+    top:950px;
+    font-style:bold;
+    font-size: small;
+}
+
+ul{
+    margin-top:px;
+    float:right;
+
+}
+
+ul li{
+    display: inline;
+
+}
+
+ul li a{
+    text-decoration: none;
+    border: 5px solid transparent;
+    padding: 15px 55px;
+    color:red;
+    font-size: large;
+    transition: 0.8s ease-in-out;
+
+}
+
+ul li a:hover{
+    background-color: black;
+}
+img{
+  width:50%;
+  height: 650px;
+  background-image: url('wolf1.jpg');
+  border: 10px solid black;
+  border-radius: 50%;
+}
+
+.button{
+    position: absolute;
+    border: solid transparent 5px;
+    padding: 10px 15px;
+    background-color:red;
+    bottom:200px;
+    left:800px;
+    transition: 0.9s ease;
+}
+
+.button a{
+    text-decoration: none;
+    color:white
+}
+
+.button:hover{
+    background-color:black;
+}
+
+.donations{
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    font-size: 80px;
+}
+.donations li{
+    display: inline;
+    color:black;
+    font-style: oblique;
+    padding:  100px;
+    border: transparent;
+}
+.under{
+    position: absolute;
+    border:solid green 10px;
+    top: 150px;
+    right: 20px;
+    font-size: 60px;
+}
+.under li{
+    display: inline;
+    color:black;
+    font-style: bold;
+    padding:20px;
+    
+}
+
+
+  
